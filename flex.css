@@ -1,0 +1,37 @@
+.HolyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.Header {
+  text-align: center;
+  font-size: xx-large;
+}
+.HolyGrail-Body {
+  display: flex;
+  flex: 1;
+}
+.HolyGrail-Content {
+  flex: 1;
+  border-style: solid;
+}
+.HolyGrail-Nav,
+.HolyGrail-Ads {
+  flex: 0 0 12em;
+}
+.HolyGrail-Nav {
+  order: -1;
+  border-style: solid;
+  color: blue;
+  text-decoration: underline;
+  border-color: black;
+}
+.HolyGrail-Ads {
+  order: +1;
+  border-style: solid;
+}
+.footer {
+  text-align: center;
+  font-size: x-large;
+  border-style: solid;
+}
