@@ -29,6 +29,9 @@
 .HolyGrail-Ads {
   order: +1;
   border-style: solid;
+  color: blue;
+  border-color: black;
+  text-decoration: underline;
 }
 .footer {
   text-align: center;
