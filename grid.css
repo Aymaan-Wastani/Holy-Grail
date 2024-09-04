@@ -1,0 +1,42 @@
+.HolyGrail-Body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer footer footer";
+
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+
+  height: 100vh;
+}
+header {
+  grid-area: header;
+  text-align: center;
+  border-bottom: solid lightgray;
+  font-size: x-large;
+}
+
+nav {
+  grid-area: nav;
+  margin-left: 0.5rem;
+  border-right: solid lightgray;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  grid-area: side;
+  margin-right: 0.5rem;
+  border-left: solid lightgray;
+}
+
+footer {
+  grid-area: footer;
+  border-top: solid lightgray;
+  text-align: center;
+  font-size: x-large;
+}
